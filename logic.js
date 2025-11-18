@@ -139,4 +139,5 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-notify("Loaded!", "info", 3500);
+notify("Skidded!", "info", 3500);
+notify("btw i hate niggers", "success", 3500);
