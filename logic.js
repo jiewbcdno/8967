@@ -140,4 +140,4 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 notify("Skidded!", "info", 3500);
-notify("btw i hate niggers", "success", 3500);
+notify("btw i hate niggers", "success", 0); //NOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
