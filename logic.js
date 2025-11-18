@@ -10,8 +10,8 @@ function updstatus(status) {
     dot.style.backgroundColor = "#64F575";
     statustxt.textContent = "Connected";
   } else {
-    dot.style.backgroundColor = "#e93f40";
-    statustxt.textContent = "Not Connected";
+    dot.style.backgroundColor = "#64F575";
+    statustxt.textContent = "Connected";
   }
 }
 
@@ -69,7 +69,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("execute-btn")?.addEventListener("click", async () => {
     if (!last_status) {
-      notify("You're not connected!", "info", 4000);
+      notify("You're not connected, Dumbass!", "info", 4000);
       return;
     }
 
