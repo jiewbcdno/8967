@@ -135,7 +135,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   lo_btn.addEventListener("click", (e) => {
     e.stopPropagation();
-    window.location.href = "/api/logout";
+    window.location.href = "/";
   });
 });
 
